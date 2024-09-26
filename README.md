@@ -7,6 +7,6 @@ YouTube Landing Page Clone
 🚨 Observações Importantes
 <p style="font-size: 18px;"><strong>Este projeto não é responsivo.</strong> A página foi desenvolvida com foco em layouts fixos para telas de tamanho padrão (desktop).</p> <p style="font-size: 18px;">Futuras melhorias podem incluir a adaptação para dispositivos móveis usando técnicas de <strong>Media Queries</strong>.</p>
 📦 Como Executar
-<ol style="font-size: 18px;"> <li>Faça o clone do repositório: <pre><code>git clone https://github.com/seu-usuario/nome-do-repositorio.git</code></pre> </li> <li>Abra o arquivo <code>index.html</code> diretamente no navegador.</li> </ol>
+<ol style="font-size: 18px;"> <li>Faça o clone do repositório: <pre><code>git clone https://github.com/pardal-code/Land-Page-Youtube</code></pre> </li> <li>Abra o arquivo <code>index.html</code> diretamente no navegador.</li> </ol>
 🔧 Melhorias Futuras
 <ul style="font-size: 18px;"> <li>Tornar o layout responsivo.</li> <li>Otimizar o código CSS para melhor reutilização.</li> </ul>
