@@ -1,0 +1,215 @@
+@import url(reset.css);
+header {
+    height: 3.5rem;
+    position: relative;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_e_menu {
+    height: 24px;
+    margin-left: 30px; 
+    position: absolute;
+    top: 25%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.pesquisa_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+}
+
+.barra_pesquisa {
+    display: flex;
+    position: absolute;
+    transform: translateY(-50%);
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+#barra {
+    width: 300px;
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 20px 0 0 20px;
+    border: none;
+}
+
+#lupa {
+    width: 50px;
+    height: 40px;
+    border: none;
+    background-color: #f8f8f8;
+    border-left: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lupa img {
+    width: 20px;
+    height: 20px;
+}
+
+.usuario_container {
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: end;
+    margin-right: 30px;
+}
+
+.usuario_container div {
+    width: 24px;
+    height: 24px;
+}
+
+#user {
+    width: 33px;
+    height: 33px;
+}
+
+.usuario_container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.area_canal {
+
+    margin: 40px 0px 0px 75px;
+}
+
+.area_canal section img {
+    border-radius: 5px;
+}
+
+.area_canal h1 {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.video_acoes {
+    width: 100%;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.logo_nome {
+    display: flex;
+    height: 42px;
+    align-items: center;
+}
+
+#logo {
+    height: 42px;
+}
+
+#nome {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    justify-content: center;
+    margin-left: 0.5rem;
+}
+
+#nome p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+#nome p:first-child {
+    font-weight: bold;
+}
+
+#nome p:last-child {
+    font-size: 0.9rem;
+    color: gray;
+}
+
+.subscribe_button {
+    display: flex;
+    align-items: center;
+}
+
+#sub {
+    width: 159px;
+    height: 40px;
+    border-radius: 2px;
+    border: none;
+    background-color: red;
+    color: #f8f8f8;
+    font-size: 1rem;
+}
+
+.like {
+    width: 63px;
+    height: 24px;
+}
+
+.deslike {
+    width: 100px;
+    height: 24px;
+}
+
+.share {
+    width: 115px;
+    height: 24px;
+}
+
+.download {
+    width: 95px;
+    height: 24px;
+}
+
+.like, .deslike, .share, .download {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.information {
+    width: 405px;
+    height: 16px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0.7rem;
+}
+
+.information p:last-child {
+    width: 510px;
+    height: 64px;
+    font-size: 14px;
+    color: #515151;
+    margin-top: 0.7rem;
+}
+
+.sidebar {
+    width: 160px;
+    height: 938px;
+    margin: 40px 16rem 0px 0px;
+}
+
+.sidebar section img {
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
